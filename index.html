@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>RingBooker Engineering Notes</title>
+  <meta name="description" content="Public notes and links about building voice AI for salons, spas, med spas, clinics, and appointment-based local businesses." />
+
+  <meta property="og:title" content="RingBooker Engineering Notes" />
+  <meta property="og:description" content="Public notes and links about building voice AI for salons, spas, med spas, clinics, and appointment-based local businesses." />
+  <meta property="og:type" content="website" />
+
+  <style>
+    :root {
+      --brand: #8B5CF6;
+      --text: #111827;
+      --muted: #4B5563;
+      --border: #E5E7EB;
+      --bg-soft: #FAFAFA;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 64px 24px;
+      line-height: 1.6;
+      color: var(--text);
+      background: #ffffff;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 32px;
+    }
+
+    .brand img {
+      width: 48px;
+      height: 48px;
+      border-radius: 14px;
+      object-fit: contain;
+    }
+
+    .brand-name {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    h1 {
+      font-size: 44px;
+      line-height: 1.08;
+      letter-spacing: -0.03em;
+      margin: 0 0 18px;
+    }
+
+    h2 {
+      margin-top: 42px;
+      font-size: 24px;
+      letter-spacing: -0.01em;
+    }
+
+    p {
+      font-size: 18px;
+      color: var(--muted);
+      margin: 0 0 18px;
+    }
+
+    ul {
+      padding-left: 22px;
+      margin-top: 12px;
+    }
+
+    li {
+      margin: 8px 0;
+      font-size: 17px;
+      color: #374151;
+    }
+
+    a {
+      color: var(--brand);
+      text-decoration: none;
+      font-weight: 650;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .tagline {
+      font-size: 21px;
+      color: var(--muted);
+      max-width: 680px;
+    }
+
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 26px;
+      margin-top: 32px;
+      background: var(--bg-soft);
+    }
+
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .links {
+      display: grid;
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .link-card {
+      display: block;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px 18px;
+      background: #fff;
+    }
+
+    .footer {
+      margin-top: 54px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 14px;
+      color: #6B7280;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 40px 20px;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      .tagline {
+        font-size: 19px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="brand">
+    <img src="logo.png" alt="RingBooker logo" />
+    <div class="brand-name">RingBooker</div>
+  </header>
+
+  <main>
+    <h1>RingBooker Engineering Notes</h1>
+
+    <p class="tagline">
+      Voice AI for salons, spas, med spas, clinics, and appointment-based local businesses.
+    </p>
+
+    <section class="card">
+      <p>
+        RingBooker is building a voice AI agent that helps salons, spas, med spas, clinics,
+        and other appointment-based businesses capture missed calls, after-hours inquiries,
+        peak-hour overflow, and booking intent without replacing the human team or changing
+        the phone number customers already call.
+      </p>
+    </section>
+
+    <h2>What we care about</h2>
+
+    <ul>
+      <li>Real-time voice AI</li>
+      <li>Phone UX and caller trust</li>
+      <li>Latency and interruption handling</li>
+      <li>Call coverage for salons, spas, med spas, and clinics</li>
+      <li>After-hours call coverage</li>
+      <li>Peak-hour overflow</li>
+      <li>Keeping the current business phone number</li>
+      <li>Human handoff</li>
+      <li>Structured call summaries</li>
+      <li>Voice AI for local businesses</li>
+    </ul>
+
+    <h2>Links</h2>
+
+    <div class="links">
+      <a class="link-card" href="https://ringbooker.com">RingBooker website</a>
+      <a class="link-card" href="https://ringbooker.com/demo">Try the live demo</a>
+      <a class="link-card" href="https://github.com/ringbooker">RingBooker on GitHub</a>
+    </div>
+
+    <p class="footer">
+      Public technical footprint for RingBooker.
+    </p>
+  </main>
+</body>
+</html>
